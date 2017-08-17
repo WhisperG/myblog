@@ -1,3 +1,17 @@
+function local_search(){
+    $("#popoverlay").show();
+    $(".search-form").show();
+    
+};
+
+$(function(){
+    $('body').append('<div id="popoverlay"></div>');
+    $("#popoverlay,.popup-btn-close").on('click',function(){
+        $("#popoverlay").hide();
+        $(".search-form").hide();
+    });
+});
+
 var searchFunc = function(path, search_id, content_id) {
     'use strict';
     $.ajax({
@@ -27,7 +41,7 @@ var searchFunc = function(path, search_id, content_id) {
                     var content_index = [];
                     var data_title = data.title.trim().toLowerCase();
                     var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url;
+                    var data_url = decodeURIComponent(data.url);
                     var index_title = -1;
                     var index_content = -1;
                     var first_occur = -1;
@@ -52,7 +66,7 @@ var searchFunc = function(path, search_id, content_id) {
                     if (isMatch) {
                         str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
                         var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        if (first_occur >= 0) {
+                        /*if (first_occur >= 0) {
                             // cut out 100 characters
                             var start = first_occur - 20;
                             var end = first_occur + 20;
@@ -73,7 +87,7 @@ var searchFunc = function(path, search_id, content_id) {
                             });
 
                             str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        }
+                        }*/
                         str += "</li>";
                     }
                 });

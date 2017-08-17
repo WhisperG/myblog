@@ -9,6 +9,63 @@ body {
 	line-height: 1.6em;
 }
 
+/* 搜索遮罩层 */
+#popoverlay {
+	display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 2080;
+    background-color: rgba(0,0,0,0.3);
+}
+/* 检索 */
+.search-form {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width: 700px;
+    height: 60%;
+    margin-left: -350px;
+    padding: 3px 0 0 10px;
+    background: #fff;
+    color: #333;
+    z-index: 9999;
+    border-radius: 3px;
+}
+/* 检索框 */
+#local-search-input {
+    padding: 10px 0;
+    width: 97%;
+    font-size: 18px;
+    border: none;
+    text-indent: 14px;
+    border-radius: 0;
+    outline: none;
+    border-bottom: 1px solid #999;
+    background: inherit;
+    opacity: 0.5;
+}
+
+.search-result-list li{
+	padding: 2px;
+}
+#local-search-result {
+    height: 60%;
+    overflow: auto;
+}
+.popup-btn-close {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    color: #4ebd79;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 @font-face {
 	font-family: 'Kaushan Script';
     font-style: normal;
