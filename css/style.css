@@ -76,11 +76,12 @@ body {
 
 /*滚动条*/
 ::-webkit-scrollbar {
-  height: 10px;
-  width: 10px;
+  height: 5px;
+  width: 5px;
   background: rgba(222,222,222,.5);
   transition: all .3s ease-in-out;
-  border-radius: 5px
+  cursor: pointer !important;
+  /* border-radius: 5px */
 }
 ::-webkit-scrollbar-button {
   display: none
@@ -92,11 +93,12 @@ body {
   background-color: rgba(0,0,0,.15)
 }
 ::-webkit-scrollbar-thumb {
-  width: 10px;
-  min-height: 15px;
+  width: 5px;
+  min-height: 5px;
   background: rgba(0,0,0,.3);
   transition: all .3s ease-in-out;
-  border-radius: 5px
+  cursor: pointer !important;
+  /* border-radius: 5px */
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0,0,0,.6)
@@ -759,8 +761,25 @@ figure.highlight table {
 	margin: 0px !important;
 }
 
-figure.highlight pre,
-  figure.highlight .gutter,
+figure.highlight pre {
+	background-color: inherit;
+	font-family: Menlo, Consolas, monospace;
+	border: none;
+	padding: 0;
+	margin: 0;
+ 	cursor: pointer !important;
+}
+
+figure.highlight div{
+	background-color: inherit;
+	font-family: Menlo, Consolas, monospace;
+	border: none;
+	padding: 0;
+	margin: 0;
+ 	cursor: text !important;
+}
+
+figure.highlight .gutter,
   figure.highlight .code,
   figure.highlight .tag,
   .codeblock pre,
@@ -772,7 +791,7 @@ figure.highlight pre,
 	border: none;
 	padding: 0;
 	margin: 0;
-	cursor: text;
+	cursor: text !important;
 }
 
 figure.highlight .gutter,
