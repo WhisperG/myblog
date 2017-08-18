@@ -3,12 +3,17 @@
 
     <sitemap>
         <loc>http://hjie365.top/post-sitemap.xml</loc>
-        <lastmod>2017-08-18T09:43:09.874Z</lastmod>
+        <lastmod>2017-08-18T09:46:54.473Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://hjie365.top/page-sitemap.xml</loc>
+        <lastmod>2017-08-18T09:45:26.993Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://hjie365.top/tag-sitemap.xml</loc>
-        <lastmod>2017-08-18T09:43:09.874Z</lastmod>
+        <lastmod>2017-08-18T09:46:54.473Z</lastmod>
     </sitemap>
 
 </sitemapindex>

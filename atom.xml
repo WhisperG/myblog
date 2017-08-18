@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hjie365.top/"/>
-  <updated>2017-08-18T09:43:09.874Z</updated>
+  <updated>2017-08-18T09:46:54.473Z</updated>
   <id>http://hjie365.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://hjie365.top/2017/08/18/Golang%E4%BD%BF%E7%94%A8%E4%B9%8B%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91/"/>
     <id>http://hjie365.top/2017/08/18/Golang使用之图形界面开发/</id>
     <published>2017-08-18T09:37:41.000Z</published>
-    <updated>2017-08-18T09:43:09.874Z</updated>
+    <updated>2017-08-18T09:46:54.473Z</updated>
     
     <content type="html"><![CDATA[<p>学习golang有段时间了，这次由于工作需要，需要写个UI程序，这里使用了<a href="https://sciter.com/" title="go-sciter" target="_blank" rel="external">go-sciter</a>，Sciter是一个嵌入式的HTML/CSS/脚本引擎，旨在为桌面应用创建一个 UI 框架层。说简单点就是我们通过它可以像写html，css那样写桌面，成熟案例如Norton Antivirus和Internet Security，Comodo Internet Security，ESET Antivirus，BitDefender Antivirus等</p>
 <h2 id="一、环境准备环境准备"><a href="#一、环境准备环境准备" class="headerlink" title="一、环境准备环境准备"></a>一、环境准备环境准备</h2><h3 id="第一步：下载-sciter-sdk"><a href="#第一步：下载-sciter-sdk" class="headerlink" title="第一步：下载 sciter-sdk"></a>第一步：下载 <a href="https://sciter.com/sdk/sciter-sdk.zip" target="_blank" rel="external">sciter-sdk</a></h3><blockquote>
