@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hjie365.top/"/>
-  <updated>2017-08-18T09:46:54.473Z</updated>
+  <updated>2017-08-21T00:58:10.907Z</updated>
   <id>http://hjie365.top/</id>
   
   <author>
@@ -14,6 +14,71 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最全架构师图谱</title>
+    <link href="http://hjie365.top/2017/08/20/%E6%9C%80%E5%85%A8%E6%9E%B6%E6%9E%84%E5%B8%88%E5%9B%BE%E8%B0%B1/"/>
+    <id>http://hjie365.top/2017/08/20/最全架构师图谱/</id>
+    <published>2017-08-20T10:53:09.000Z</published>
+    <updated>2017-08-21T00:58:10.907Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-架构师系列"><a href="#1-架构师系列" class="headerlink" title="1 架构师系列"></a>1 架构师系列</h2><h3 id="架构师图谱"><a href="#架构师图谱" class="headerlink" title="架构师图谱"></a>架构师图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-f1ab820576d3d36b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="架构师图谱"></p>
+<h3 id="Java架构师图谱"><a href="#Java架构师图谱" class="headerlink" title="Java架构师图谱"></a>Java架构师图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-51f9fe182fea724d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java架构师图谱"></p>
+<h3 id="微服务架构秘籍"><a href="#微服务架构秘籍" class="headerlink" title="微服务架构秘籍"></a>微服务架构秘籍</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-4a7c08a813ffa011.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="微服务架构秘籍"></p>
+<h3 id="一致性图谱"><a href="#一致性图谱" class="headerlink" title="一致性图谱"></a>一致性图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-3357bcd3cb02416b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="一致性图谱"></p>
+<h3 id="互联网大流量的方法"><a href="#互联网大流量的方法" class="headerlink" title="互联网大流量的方法"></a>互联网大流量的方法</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-6ae60b2944c257ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="互联网大流量的方法"></p>
+<h3 id="安全秘籍"><a href="#安全秘籍" class="headerlink" title="安全秘籍"></a>安全秘籍</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-dedb20d5be56d989.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安全秘籍"></p>
+<h3 id="阿里巴巴常用小框架"><a href="#阿里巴巴常用小框架" class="headerlink" title="阿里巴巴常用小框架"></a>阿里巴巴常用小框架</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-678b45d2de320746.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="阿里巴巴常用小框架"></p>
+<h3 id="架构方法论图谱"><a href="#架构方法论图谱" class="headerlink" title="架构方法论图谱"></a>架构方法论图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-fc19311bc92a811d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="架构方法论图谱"></p>
+<h3 id="设计模式秘籍图谱"><a href="#设计模式秘籍图谱" class="headerlink" title="设计模式秘籍图谱"></a>设计模式秘籍图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-bb0b92f26600b59a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="设计模式秘籍图谱"></p>
+<h2 id="2-Java系列"><a href="#2-Java系列" class="headerlink" title="2 Java系列"></a>2 Java系列</h2><h3 id="JVM垃圾回图谱"><a href="#JVM垃圾回图谱" class="headerlink" title="JVM垃圾回图谱"></a>JVM垃圾回图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-177756096b76affe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="JVM垃圾回图谱"></p>
+<h3 id="Java并发图谱"><a href="#Java并发图谱" class="headerlink" title="Java并发图谱"></a>Java并发图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-cb86b37d1390d7b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java并发图谱"></p>
+<h3 id="Java集合图谱"><a href="#Java集合图谱" class="headerlink" title="Java集合图谱"></a>Java集合图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-25474decc57eca07.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java集合图谱"></p>
+<h3 id="Java集合类图"><a href="#Java集合类图" class="headerlink" title="Java集合类图"></a>Java集合类图</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-d41c948490a26b54.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java集合类图"></p>
+<h3 id="Java-List类图"><a href="#Java-List类图" class="headerlink" title="Java List类图"></a>Java List类图</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-a2c3b631208d2559.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java List类图"></p>
+<h3 id="Java-Map类图"><a href="#Java-Map类图" class="headerlink" title="Java Map类图"></a>Java Map类图</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-e088ada92f63d4c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java Map类图"></p>
+<h3 id="Java-Set类图"><a href="#Java-Set类图" class="headerlink" title="Java Set类图"></a>Java Set类图</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-4f20d68e1f4bbd33.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java Set类图"></p>
+<h2 id="3-大数据系列"><a href="#3-大数据系列" class="headerlink" title="3 大数据系列"></a>3 大数据系列</h2><h3 id="Hadoop技能图谱"><a href="#Hadoop技能图谱" class="headerlink" title="Hadoop技能图谱"></a>Hadoop技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-ccf6cae90139b130.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Hadoop技能图谱"></p>
+<h3 id="大数据技能图谱"><a href="#大数据技能图谱" class="headerlink" title="大数据技能图谱"></a>大数据技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-23d0bf618f8f6f5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="大数据技能图谱"></p>
+<h2 id="4-云计算系列"><a href="#4-云计算系列" class="headerlink" title="4 云计算系列"></a>4 云计算系列</h2><h3 id="云计算图谱"><a href="#云计算图谱" class="headerlink" title="云计算图谱"></a>云计算图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-6d0b680ae67a8c96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="云计算图谱"></p>
+<h3 id="云计算技能图谱"><a href="#云计算技能图谱" class="headerlink" title="云计算技能图谱"></a>云计算技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-4c10e03305a1f2d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="云计算技能图谱"></p>
+<h2 id="5-其他"><a href="#5-其他" class="headerlink" title="5 其他"></a>5 其他</h2><h3 id="IOS技能图谱"><a href="#IOS技能图谱" class="headerlink" title="IOS技能图谱"></a>IOS技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-2175f5af9eed7857.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IOS技能图谱"></p>
+<h3 id="OpenResty技能图谱"><a href="#OpenResty技能图谱" class="headerlink" title="OpenResty技能图谱"></a>OpenResty技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-5ce73b40ffbe076d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="OpenResty技能图谱"></p>
+<h3 id="前端技能图谱"><a href="#前端技能图谱" class="headerlink" title="前端技能图谱"></a>前端技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-141e6ba51f8dc54c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="前端技能图谱"></p>
+<h3 id="容器技能图谱"><a href="#容器技能图谱" class="headerlink" title="容器技能图谱"></a>容器技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-6d02639ce5ae160f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="容器技能图谱"></p>
+<h3 id="嵌入式开发技能图谱"><a href="#嵌入式开发技能图谱" class="headerlink" title="嵌入式开发技能图谱"></a>嵌入式开发技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-f24ca8d32ad1a384.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="嵌入式开发技能图谱"></p>
+<h3 id="开发语言宝典"><a href="#开发语言宝典" class="headerlink" title="开发语言宝典"></a>开发语言宝典</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-d0375b2d590c0c34.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="开发语言宝典"></p>
+<h3 id="移动端测试图谱"><a href="#移动端测试图谱" class="headerlink" title="移动端测试图谱"></a>移动端测试图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-6395c5da25e3e7fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="移动端测试图谱"></p>
+<h3 id="运维技能图谱"><a href="#运维技能图谱" class="headerlink" title="运维技能图谱"></a>运维技能图谱</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-350ab02c6030c235.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运维技能图谱"></p>
+<h3 id="软件工程"><a href="#软件工程" class="headerlink" title="软件工程"></a>软件工程</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-512b12dd361ed0cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="软件工程"></p>
+<h3 id="DevOps"><a href="#DevOps" class="headerlink" title="DevOps"></a>DevOps</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-21da7e14ec5b6bed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="DevOps"></p>
+<h3 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a>前端开发</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-454f2112deddd694.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="前端开发"></p>
+<h3 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a>后端开发</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-85aa8287fc9d6e6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="后端开发"></p>
+<h3 id="软件发布流程"><a href="#软件发布流程" class="headerlink" title="软件发布流程"></a>软件发布流程</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-5b095dfbd03e2eba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="软件发布流程"></p>
+<h3 id="Java-TCP-IP"><a href="#Java-TCP-IP" class="headerlink" title="Java TCP IP"></a>Java TCP IP</h3><p><img src="http://upload-images.jianshu.io/upload_images/4310879-a36aad3906cea047.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Java TCP IP"></p>
+<p>资料来源：<a href="http://www.jianshu.com/p/c8382065bd2b" title="简书@李艳鹏" target="_blank" rel="external">简书@李艳鹏</a><br>原图下载：<a href="http://pan.baidu.com/s/1jIIbp7C" target="_blank" rel="external">原图下载</a> 密码:4bzw</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-架构师系列&quot;&gt;&lt;a href=&quot;#1-架构师系列&quot; class=&quot;headerlink&quot; title=&quot;1 架构师系列&quot;&gt;&lt;/a&gt;1 架构师系列&lt;/h2&gt;&lt;h3 id=&quot;架构师图谱&quot;&gt;&lt;a href=&quot;#架构师图谱&quot; class=&quot;headerlink&quot; ti
+    
+    </summary>
+    
+    
+      <category term="架构" scheme="http://hjie365.top/tags/%E6%9E%B6%E6%9E%84/"/>
+    
+      <category term="JAVA" scheme="http://hjie365.top/tags/JAVA/"/>
+    
+      <category term="微服务" scheme="http://hjie365.top/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+      <category term="设计模式" scheme="http://hjie365.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+      <category term="大数据" scheme="http://hjie365.top/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+      <category term="云计算" scheme="http://hjie365.top/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
+    
+  </entry>
   
   <entry>
     <title>Golang使用之图形界面开发</title>
