@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hjie365.top/"/>
-  <updated>2017-08-21T00:58:10.907Z</updated>
+  <updated>2017-09-18T07:42:00.235Z</updated>
   <id>http://hjie365.top/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OpenVPN服务搭建.md</title>
+    <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
+    <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
+    <published>2017-09-18T07:38:43.000Z</published>
+    <updated>2017-09-18T07:42:00.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>待定。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;待定。。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
+    
+      <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>最全架构师图谱</title>
