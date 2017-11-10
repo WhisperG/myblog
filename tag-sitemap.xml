@@ -44,41 +44,6 @@
     </url>
 
     <url>
-        <loc>http://hjie365.top/tags/cnetos/</loc>
-        <lastmod>2017-11-10T06:25:07.888Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://hjie365.top/tags/%E7%97%85%E6%AF%92/</loc>
-        <lastmod>2017-11-10T06:25:07.888Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://hjie365.top/tags/wnTKYg/</loc>
-        <lastmod>2017-11-10T06:25:07.888Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://hjie365.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-        <lastmod>2017-11-10T06:25:07.888Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://hjie365.top/tags/%E6%8C%96%E7%9F%BF/</loc>
-        <lastmod>2017-11-10T06:25:07.888Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://hjie365.top/tags/Nginx%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0/</loc>
         <lastmod>2017-11-10T06:27:25.666Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -172,6 +137,41 @@
     <url>
         <loc>http://hjie365.top/tags/SQL/</loc>
         <lastmod>2017-11-10T06:37:39.553Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hjie365.top/tags/cnetos/</loc>
+        <lastmod>2017-11-10T06:45:19.702Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hjie365.top/tags/%E7%97%85%E6%AF%92/</loc>
+        <lastmod>2017-11-10T06:45:19.702Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hjie365.top/tags/wnTKYg/</loc>
+        <lastmod>2017-11-10T06:45:19.702Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hjie365.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+        <lastmod>2017-11-10T06:45:19.702Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hjie365.top/tags/%E6%8C%96%E7%9F%BF/</loc>
+        <lastmod>2017-11-10T06:45:19.702Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
