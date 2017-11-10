@@ -45,6 +45,30 @@
   </entry>
   
   <entry>
+    <title>OpenVPN服务搭建</title>
+    <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
+    <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
+    <published>2017-09-18T07:38:43.000Z</published>
+    <updated>2017-11-10T06:31:02.193Z</updated>
+    
+    <content type="html"><![CDATA[<p>待定。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;待定。。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
+    
+      <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>npm源国内镜像</title>
     <link href="http://hjie365.top/2017/09/18/npm%E6%BA%90%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/"/>
     <id>http://hjie365.top/2017/09/18/npm源国内镜像/</id>
@@ -69,30 +93,6 @@
       <category term="npm" scheme="http://hjie365.top/tags/npm/"/>
     
       <category term="nodejs" scheme="http://hjie365.top/tags/nodejs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OpenVPN服务搭建</title>
-    <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
-    <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
-    <published>2017-09-18T07:38:43.000Z</published>
-    <updated>2017-11-10T06:31:02.193Z</updated>
-    
-    <content type="html"><![CDATA[<p>待定。。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;待定。。&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-      <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
-    
-      <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
     
   </entry>
   
@@ -203,11 +203,11 @@
   </entry>
   
   <entry>
-    <title>Mhub-sqlcollect 使用说明</title>
+    <title>MyBatis-SQL拦截器</title>
     <link href="http://hjie365.top/2017/08/18/MyBatis-SQL%E6%8B%A6%E6%88%AA%E5%99%A8/"/>
     <id>http://hjie365.top/2017/08/18/MyBatis-SQL拦截器/</id>
     <published>2017-08-18T06:02:40.000Z</published>
-    <updated>2017-11-10T06:28:08.177Z</updated>
+    <updated>2017-11-10T06:37:39.553Z</updated>
     
     <content type="html"><![CDATA[<p>此模块用于收集项目中可能影响效率的分页查询SQL,主要用于项目开发阶段的SQL优化</p>
 <h3 id="背景说明"><a href="#背景说明" class="headerlink" title="背景说明"></a>背景说明</h3><p>MHUB框架中，我们使用了<strong><a href="https://github.com/pagehelper/Mybatis-PageHelper" target="_blank" rel="external">PageHelper</a></strong> 作为分页插件，它会根据你使用的数据库来将你的<code>**ByPage</code>的sql改装成一个分页查询的sql，并顺带生成一个查询总数的sql，这条sql的生成使用了SQL解析工具SQLParser，当解析失败时（不规范的sql或自定义函数等，都可能导致解析失败），查询总数的sql会直接使用select count(0) from ( 原sql ),效率可想而知。<br>怎么解决呢？MHUB里提供了@MhubCount注解（com.woyi.annotation.MhubCount），该注解在DAO层使用，使用参照如下：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/** 分页查询sql */</span></div><div class="line"><span class="meta">@MhubCount</span>(paramTypes = &#123;ChatRecord.class, MPage.class&#125;, queryCountMethodName = <span class="string">"getChatRecordByPageForCount"</span>)</div><div class="line"><span class="function">Page&lt;ChatRecord&gt; <span class="title">getChatRecordByPage</span><span class="params">(@Param(<span class="string">"chatRecord"</span>)</span>ChatRecord chatRecord, MPage page)</span>;</div><div class="line"></div><div class="line"><span class="comment">/** 优化过的count查询sql */</span></div><div class="line"><span class="function">Long <span class="title">getChatRecordByPageForCount</span><span class="params">(@Param(<span class="string">"chatRecord"</span>)</span>ChatRecord chatRecord, MPage page)</span>;</div></pre></td></tr></table></figure></p>

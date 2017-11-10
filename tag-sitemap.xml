@@ -93,20 +93,6 @@
     </url>
 
     <url>
-        <loc>http://hjie365.top/tags/MyBatis/</loc>
-        <lastmod>2017-11-10T06:28:08.177Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://hjie365.top/tags/SQL/</loc>
-        <lastmod>2017-11-10T06:28:08.177Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://hjie365.top/tags/Ngrok/</loc>
         <lastmod>2017-11-10T06:28:50.951Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -172,6 +158,20 @@
     <url>
         <loc>http://hjie365.top/tags/%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/</loc>
         <lastmod>2017-11-10T06:33:55.297Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hjie365.top/tags/MyBatis/</loc>
+        <lastmod>2017-11-10T06:37:39.553Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hjie365.top/tags/SQL/</loc>
+        <lastmod>2017-11-10T06:37:39.553Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
