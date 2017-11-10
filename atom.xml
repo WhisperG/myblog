@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hjie365.top/"/>
-  <updated>2017-11-10T07:01:07.067Z</updated>
+  <updated>2017-11-10T07:03:28.635Z</updated>
   <id>http://hjie365.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://hjie365.top/2017/11/10/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%97%85%E6%AF%92%E6%8E%92%E6%9F%A5/"/>
     <id>http://hjie365.top/2017/11/10/记一次服务器病毒排查/</id>
     <published>2017-11-10T06:19:36.000Z</published>
-    <updated>2017-11-10T07:01:07.067Z</updated>
+    <updated>2017-11-10T07:03:28.635Z</updated>
     
     <content type="html"><![CDATA[<h4 id="排毒："><a href="#排毒：" class="headerlink" title="排毒："></a>排毒：</h4><p>（1）关闭访问挖矿服务器的访问 iptables -A INPUT -s xmr.crypto-pool.fr -j DROP 和iptables -A OUTPUT -d xmr.crypto-pool.fr -j DROP<br>（2）删除/usr/local/etc 下root文件中的内容<br>（3）删除yam 文件（我的yam文件不是在上面说的/opt目录下的，使用find命令查找，然后删除）<br>（4）删除 /root/.ssh/KHK75NEOiq<br>（5）删除/opt/minerd 和 /opt/KHK75NEOiq33<br>（6）杀死minerd进程，pkill minerd 或者kill -9 进程Id </p>
 <h4 id="修复redis的后门"><a href="#修复redis的后门" class="headerlink" title="修复redis的后门"></a>修复redis的后门</h4><p>a.配置bind选项, 限定可以连接Redis服务器的IP, 并修改redis的默认端口6379<br>b.配置AUTH, 设置密码, 密码会以明文方式保存在redis配置文件中.<br>c.配置rename-command CONFIG “RENAME_CONFIG”, 这样即使存在未授权访问, 也能够给攻击者使用config指令加大难度<br>d.好消息是Redis作者表示将会开发”real user”，区分普通用户和admin权限，普通用户将会被禁止运行某些命令，如conf<br>打开 ~/.ssh/authorized_keys, 删除你不认识的密钥<br>删除用户列表中陌生的帐号</p>
@@ -35,7 +35,7 @@
     </summary>
     
     
-      <category term="cnetos" scheme="http://hjie365.top/tags/cnetos/"/>
+      <category term="CentOS" scheme="http://hjie365.top/tags/CentOS/"/>
     
       <category term="病毒" scheme="http://hjie365.top/tags/%E7%97%85%E6%AF%92/"/>
     
@@ -44,30 +44,6 @@
       <category term="服务器" scheme="http://hjie365.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="挖矿" scheme="http://hjie365.top/tags/%E6%8C%96%E7%9F%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OpenVPN服务搭建</title>
-    <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
-    <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
-    <published>2017-09-18T07:38:43.000Z</published>
-    <updated>2017-11-10T06:31:02.193Z</updated>
-    
-    <content type="html"><![CDATA[<p>待定。。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;待定。。&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-      <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
-    
-      <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
     
   </entry>
   
@@ -96,6 +72,30 @@
       <category term="npm" scheme="http://hjie365.top/tags/npm/"/>
     
       <category term="nodejs" scheme="http://hjie365.top/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenVPN服务搭建</title>
+    <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
+    <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
+    <published>2017-09-18T07:38:43.000Z</published>
+    <updated>2017-11-10T06:31:02.193Z</updated>
+    
+    <content type="html"><![CDATA[<p>待定。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;待定。。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
+    
+      <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
     
   </entry>
   

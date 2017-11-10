@@ -5,20 +5,11 @@
     <url>%2F2017%2F11%2F10%2F%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%97%85%E6%AF%92%E6%8E%92%E6%9F%A5%2F</url>
     <content type="text"><![CDATA[排毒：（1）关闭访问挖矿服务器的访问 iptables -A INPUT -s xmr.crypto-pool.fr -j DROP 和iptables -A OUTPUT -d xmr.crypto-pool.fr -j DROP（2）删除/usr/local/etc 下root文件中的内容（3）删除yam 文件（我的yam文件不是在上面说的/opt目录下的，使用find命令查找，然后删除）（4）删除 /root/.ssh/KHK75NEOiq（5）删除/opt/minerd 和 /opt/KHK75NEOiq33（6）杀死minerd进程，pkill minerd 或者kill -9 进程Id 修复redis的后门a.配置bind选项, 限定可以连接Redis服务器的IP, 并修改redis的默认端口6379b.配置AUTH, 设置密码, 密码会以明文方式保存在redis配置文件中.c.配置rename-command CONFIG “RENAME_CONFIG”, 这样即使存在未授权访问, 也能够给攻击者使用config指令加大难度d.好消息是Redis作者表示将会开发”real user”，区分普通用户和admin权限，普通用户将会被禁止运行某些命令，如conf打开 ~/.ssh/authorized_keys, 删除你不认识的密钥删除用户列表中陌生的帐号 详见：如何应对和预防”挖矿机”入侵?]]></content>
       <tags>
-        <tag>cnetos</tag>
+        <tag>CentOS</tag>
         <tag>病毒</tag>
         <tag>wnTKYg</tag>
         <tag>服务器</tag>
         <tag>挖矿</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[OpenVPN服务搭建]]></title>
-    <url>%2F2017%2F09%2F18%2FOpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%2F</url>
-    <content type="text"><![CDATA[待定。。]]></content>
-      <tags>
-        <tag>VPN</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -28,6 +19,15 @@
       <tags>
         <tag>npm</tag>
         <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[OpenVPN服务搭建]]></title>
+    <url>%2F2017%2F09%2F18%2FOpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[待定。。]]></content>
+      <tags>
+        <tag>VPN</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
