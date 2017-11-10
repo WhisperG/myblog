@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hjie365.top/"/>
-  <updated>2017-09-27T08:28:24.379Z</updated>
+  <updated>2017-11-10T06:25:07.888Z</updated>
   <id>http://hjie365.top/</id>
   
   <author>
@@ -16,11 +16,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>OpenVPN服务搭建.md</title>
+    <title>记一次服务器病毒排查</title>
+    <link href="http://hjie365.top/2017/11/10/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%97%85%E6%AF%92%E6%8E%92%E6%9F%A5/"/>
+    <id>http://hjie365.top/2017/11/10/记一次服务器病毒排查/</id>
+    <published>2017-11-10T06:19:36.000Z</published>
+    <updated>2017-11-10T06:25:07.888Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://oz6t8di9l.bkt.clouddn.com/1.png" alt="1.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/2.png" alt="2.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/3.png" alt="3.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/4.png" alt="4.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/5.png" alt="5.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/6.png" alt="6.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/7.png" alt="7.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/8.png" alt="8.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/9.png" alt="9.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/10.png" alt="10.png"><br><img src="http://oz6t8di9l.bkt.clouddn.com/11.png" alt="11.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://oz6t8di9l.bkt.clouddn.com/1.png&quot; alt=&quot;1.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://oz6t8di9l.bkt.clouddn.com/2.png&quot; alt=&quot;2.png&quot;&gt;&lt;br&gt;&lt;img 
+    
+    </summary>
+    
+    
+      <category term="cnetos" scheme="http://hjie365.top/tags/cnetos/"/>
+    
+      <category term="病毒" scheme="http://hjie365.top/tags/%E7%97%85%E6%AF%92/"/>
+    
+      <category term="wnTKYg" scheme="http://hjie365.top/tags/wnTKYg/"/>
+    
+      <category term="服务器" scheme="http://hjie365.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="挖矿" scheme="http://hjie365.top/tags/%E6%8C%96%E7%9F%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenVPN服务搭建</title>
     <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
     <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
     <published>2017-09-18T07:38:43.000Z</published>
-    <updated>2017-09-27T08:28:24.379Z</updated>
+    <updated>2017-11-10T06:31:02.193Z</updated>
     
     <content type="html"><![CDATA[<p>待定。。</p>
 ]]></content>
@@ -36,6 +65,34 @@
       <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
     
       <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm源国内镜像</title>
+    <link href="http://hjie365.top/2017/09/18/npm%E6%BA%90%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/"/>
+    <id>http://hjie365.top/2017/09/18/npm源国内镜像/</id>
+    <published>2017-09-18T07:38:43.000Z</published>
+    <updated>2017-11-10T06:30:55.767Z</updated>
+    
+    <content type="html"><![CDATA[<p>  地址：<a href="https://github.com/Pana/nrm" target="_blank" rel="external">https://github.com/Pana/nrm</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm  install   -g   nrm</div></pre></td></tr></table></figure>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">C:\Users\hjie&gt;nrm -h</div><div class="line">  Usage: cli [options] [command]</div><div class="line">  Commands:</div><div class="line"></div><div class="line">    ls                           List all the registries</div><div class="line">    current                      Show current registry name</div><div class="line">    use &lt;registry&gt;               Change registry to registry</div><div class="line">    add &lt;registry&gt; &lt;url&gt; [home]  Add one custom registry</div><div class="line">    del &lt;registry&gt;               Delete one custom registry</div><div class="line">    home &lt;registry&gt; [browser]    Open the homepage of registry with optional browser</div><div class="line">    test [registry]              Show response time for specific or all registries</div><div class="line">    help                         Print this help</div><div class="line"></div><div class="line">  Options:</div><div class="line"></div><div class="line">    -h, --help     output usage information</div><div class="line">    -V, --version  output the version number</div></pre></td></tr></table></figure>
+<h3 id="查看当前支持切换的源"><a href="#查看当前支持切换的源" class="headerlink" title="查看当前支持切换的源"></a>查看当前支持切换的源</h3><p>####查看当前支持切换的源<br> nrm ls<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">  npm ---- https://registry.npmjs.org/</div><div class="line">  cnpm --- http://r.cnpmjs.org/</div><div class="line">* taobao - http://registry.npm.taobao.org/</div><div class="line">  edunpm - http://registry.enpmjs.org/</div><div class="line">  eu ----- http://registry.npmjs.eu/</div><div class="line">  au ----- http://registry.npmjs.org.au/</div><div class="line">  sl ----- http://npm.strongloop.com/</div><div class="line">  nj ----- https://registry.nodejitsu.com/</div><div class="line">  pt ----- http://registry.npmjs.pt/</div></pre></td></tr></table></figure></p>
+<h3 id="切换源"><a href="#切换源" class="headerlink" title="切换源"></a>切换源</h3><p> nrm user cnpm<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">  npm ---- https://registry.npmjs.org/</div><div class="line">* cnpm --- http://r.cnpmjs.org/</div><div class="line">  taobao - http://registry.npm.taobao.org/</div><div class="line">  edunpm - http://registry.enpmjs.org/</div><div class="line">  eu ----- http://registry.npmjs.eu/</div><div class="line">  au ----- http://registry.npmjs.org.au/</div><div class="line">  sl ----- http://npm.strongloop.com/</div><div class="line">  nj ----- https://registry.nodejitsu.com/</div><div class="line">  pt ----- http://registry.npmjs.pt/</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  地址：&lt;a href=&quot;https://github.com/Pana/nrm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/Pana/nrm&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight ba
+    
+    </summary>
+    
+    
+      <category term="npm" scheme="http://hjie365.top/tags/npm/"/>
+    
+      <category term="nodejs" scheme="http://hjie365.top/tags/nodejs/"/>
     
   </entry>
   
@@ -146,35 +203,11 @@
   </entry>
   
   <entry>
-    <title>npm源国内镜像</title>
-    <link href="http://hjie365.top/2017/08/15/npm%E6%BA%90%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/"/>
-    <id>http://hjie365.top/2017/08/15/npm源国内镜像/</id>
-    <published>2017-08-15T13:31:46.673Z</published>
-    <updated>2017-04-07T07:40:02.749Z</updated>
-    
-    <content type="html"><![CDATA[<p>  地址：<a href="https://github.com/Pana/nrm" target="_blank" rel="external">https://github.com/Pana/nrm</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm  install   -g   nrm</div></pre></td></tr></table></figure>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">C:\Users\hjie&gt;nrm -h</div><div class="line">  Usage: cli [options] [command]</div><div class="line">  Commands:</div><div class="line"></div><div class="line">    ls                           List all the registries</div><div class="line">    current                      Show current registry name</div><div class="line">    use &lt;registry&gt;               Change registry to registry</div><div class="line">    add &lt;registry&gt; &lt;url&gt; [home]  Add one custom registry</div><div class="line">    del &lt;registry&gt;               Delete one custom registry</div><div class="line">    home &lt;registry&gt; [browser]    Open the homepage of registry with optional browser</div><div class="line">    test [registry]              Show response time for specific or all registries</div><div class="line">    help                         Print this help</div><div class="line"></div><div class="line">  Options:</div><div class="line"></div><div class="line">    -h, --help     output usage information</div><div class="line">    -V, --version  output the version number</div></pre></td></tr></table></figure>
-<h3 id="查看当前支持切换的源"><a href="#查看当前支持切换的源" class="headerlink" title="查看当前支持切换的源"></a>查看当前支持切换的源</h3><p>####查看当前支持切换的源<br> nrm ls<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">  npm ---- https://registry.npmjs.org/</div><div class="line">  cnpm --- http://r.cnpmjs.org/</div><div class="line">* taobao - http://registry.npm.taobao.org/</div><div class="line">  edunpm - http://registry.enpmjs.org/</div><div class="line">  eu ----- http://registry.npmjs.eu/</div><div class="line">  au ----- http://registry.npmjs.org.au/</div><div class="line">  sl ----- http://npm.strongloop.com/</div><div class="line">  nj ----- https://registry.nodejitsu.com/</div><div class="line">  pt ----- http://registry.npmjs.pt/</div></pre></td></tr></table></figure></p>
-<h3 id="切换源"><a href="#切换源" class="headerlink" title="切换源"></a>切换源</h3><p> nrm user cnpm<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">  npm ---- https://registry.npmjs.org/</div><div class="line">* cnpm --- http://r.cnpmjs.org/</div><div class="line">  taobao - http://registry.npm.taobao.org/</div><div class="line">  edunpm - http://registry.enpmjs.org/</div><div class="line">  eu ----- http://registry.npmjs.eu/</div><div class="line">  au ----- http://registry.npmjs.org.au/</div><div class="line">  sl ----- http://npm.strongloop.com/</div><div class="line">  nj ----- https://registry.nodejitsu.com/</div><div class="line">  pt ----- http://registry.npmjs.pt/</div></pre></td></tr></table></figure></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  地址：&lt;a href=&quot;https://github.com/Pana/nrm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/Pana/nrm&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight ba
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Mhub-sqlcollect 使用说明</title>
-    <link href="http://hjie365.top/2017/08/10/MyBatis-SQL%E6%8B%A6%E6%88%AA%E5%99%A8/"/>
-    <id>http://hjie365.top/2017/08/10/MyBatis-SQL拦截器/</id>
-    <published>2017-08-10T14:29:40.000Z</published>
-    <updated>2017-08-10T14:30:54.051Z</updated>
+    <link href="http://hjie365.top/2017/08/18/MyBatis-SQL%E6%8B%A6%E6%88%AA%E5%99%A8/"/>
+    <id>http://hjie365.top/2017/08/18/MyBatis-SQL拦截器/</id>
+    <published>2017-08-18T06:02:40.000Z</published>
+    <updated>2017-11-10T06:28:08.177Z</updated>
     
     <content type="html"><![CDATA[<p>此模块用于收集项目中可能影响效率的分页查询SQL,主要用于项目开发阶段的SQL优化</p>
 <h3 id="背景说明"><a href="#背景说明" class="headerlink" title="背景说明"></a>背景说明</h3><p>MHUB框架中，我们使用了<strong><a href="https://github.com/pagehelper/Mybatis-PageHelper" target="_blank" rel="external">PageHelper</a></strong> 作为分页插件，它会根据你使用的数据库来将你的<code>**ByPage</code>的sql改装成一个分页查询的sql，并顺带生成一个查询总数的sql，这条sql的生成使用了SQL解析工具SQLParser，当解析失败时（不规范的sql或自定义函数等，都可能导致解析失败），查询总数的sql会直接使用select count(0) from ( 原sql ),效率可想而知。<br>怎么解决呢？MHUB里提供了@MhubCount注解（com.woyi.annotation.MhubCount），该注解在DAO层使用，使用参照如下：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/** 分页查询sql */</span></div><div class="line"><span class="meta">@MhubCount</span>(paramTypes = &#123;ChatRecord.class, MPage.class&#125;, queryCountMethodName = <span class="string">"getChatRecordByPageForCount"</span>)</div><div class="line"><span class="function">Page&lt;ChatRecord&gt; <span class="title">getChatRecordByPage</span><span class="params">(@Param(<span class="string">"chatRecord"</span>)</span>ChatRecord chatRecord, MPage page)</span>;</div><div class="line"></div><div class="line"><span class="comment">/** 优化过的count查询sql */</span></div><div class="line"><span class="function">Long <span class="title">getChatRecordByPageForCount</span><span class="params">(@Param(<span class="string">"chatRecord"</span>)</span>ChatRecord chatRecord, MPage page)</span>;</div></pre></td></tr></table></figure></p>
@@ -198,14 +231,72 @@
     </summary>
     
     
+      <category term="MyBatis" scheme="http://hjie365.top/tags/MyBatis/"/>
+    
+      <category term="SQL" scheme="http://hjie365.top/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx断点续传</title>
+    <link href="http://hjie365.top/2017/08/12/Nginx%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0/"/>
+    <id>http://hjie365.top/2017/08/12/Nginx断点续传/</id>
+    <published>2017-08-12T05:20:24.000Z</published>
+    <updated>2017-11-10T06:27:25.666Z</updated>
+    
+    <content type="html"><![CDATA[<p>每当我们想简单的实现文件上传功能，而又不使用其他的语言（比如Java），或者想实现文件的断点续传。这个时候Nginx的一个模块nginx-upload-module就能满足我们的需求。</p>
+<p><strong>下载模块：</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /tmp</div><div class="line">wget https://codeload.github.com/vkholodkov/nginx-upload-module/zip/2.2</div><div class="line">unzip 2.2</div></pre></td></tr></table></figure>
+<p><strong>安装模块：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">.configure --add-module=/tmp/nginx-upload-module-2.2/</div></pre></td></tr></table></figure>
+<p>·    multipart/form-data表单上传示例</p>
+<p><strong>nginx.conf配置：</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">  	[...]</div><div class="line">    location /upload &#123;</div><div class="line">      upload_pass @uploadHandler;</div><div class="line">      upload_store /usr/local/nginx/upload_temp 1;</div><div class="line">      upload_set_form_field $upload_field_name.path "$upload_tmp_path";</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    location @uploadHandler &#123;</div><div class="line">        proxy_pass http://backend-host;</div><div class="line">    &#125;</div><div class="line">	[...]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>这里在server里定义了upload location，这个location是上传的接口，还有@uploadHandler location，是当文件上传完成后，nginx模块会对这个location发送一些必要的信息，如文件上传的路径，这里涉及了几个指令：</p>
+<blockquote>
+<p>upload_pass @uploadHandler：上传完成后会发送必要的数据到@uploadHandler;<br>upload_store /usr/local/nginx/upload_temp 1: 文件上传的临时目录;<br>upload_set_form_field $upload_field_name.path “$upload_tmp_path”: 设置文件上传完成后，把文件临时路径发送给upload_pass指定的location。</p>
+</blockquote>
+<p><strong>断点续传示例</strong></p>
+<p><strong>nginx.conf配置</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">[...]</div><div class="line">        location /resumable_upload &#123;</div><div class="line">               upload_resumable on;</div><div class="line">               upload_state_store /usr/local/nginx/upload_temp ;</div><div class="line">               upload_pass @drivers_upload_handler;</div><div class="line">               upload_store /usr/local/nginx/upload_temp;</div><div class="line">               upload_set_form_field $upload_field_name.path &quot;$upload_tmp_path&quot;;</div><div class="line">            &#125;</div><div class="line">     </div><div class="line">         location @resumable_upload_handler &#123;</div><div class="line">               proxy_pass http://localhost:8002;</div><div class="line">        &#125;</div><div class="line">    [...]</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>与上一步multipart/form-data表单上传示例配置不同的地方有：<br>upload_resumable on: 开启断点续传功能;<br>upload_state_store /usr/local/nginx/upload_temp: 设置断点续传状态文件存储的目录。</p>
+</blockquote>
+<p><strong>上传文件第一个片段</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">POST /upload HTTP/1.1</div><div class="line">Host: example.com</div><div class="line">Content-Length: 51201</div><div class="line">Content-Type: application/octet-stream</div><div class="line">Content-Disposition: attachment; filename=&quot;big.TXT&quot;</div><div class="line">X-Content-Range: bytes 0-51200/511920</div><div class="line">Session-ID: 1111215056</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;0-51200的字节文件数据&gt;</div></pre></td></tr></table></figure>
+<p><strong>上传文件第一个片段服务器响应</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">HTTP/1.1 201 Created</div><div class="line">Date: Thu, 02 Sep 2010 12:54:40 GMT</div><div class="line">Content-Length: 14</div><div class="line">Connection: close</div><div class="line">Range: 0-51200/511920</div><div class="line">     </div><div class="line">0-51200/511920</div></pre></td></tr></table></figure>
+<p><strong>上传文件最后一个片段</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">POST /upload HTTP/1.1</div><div class="line">Host: example.com</div><div class="line">Content-Length: 51111</div><div class="line">Content-Type: application/octet-stream</div><div class="line">Content-Disposition: attachment; filename=&quot;big.TXT&quot;</div><div class="line">X-Content-Range: bytes 460809-511919/511920</div><div class="line">Session-ID: 1111215056</div><div class="line"></div><div class="line">&lt;460809-511919字节文件数据&gt;</div></pre></td></tr></table></figure>
+<p><strong>上传文件最后一个片段服务器响应</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">HTTP/1.1 200 OK</div><div class="line">Date: Thu, 02 Sep 2010 12:54:43 GMT</div><div class="line">Content-Type: text/html</div><div class="line">Connection: close</div><div class="line">Content-Length: 2270</div><div class="line">     </div><div class="line">&lt; 响应的内容&gt;</div></pre></td></tr></table></figure>
+<p><strong>请求头说明</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">  请求头 	                      说明</div><div class="line">Content-Disposition  attachment, filename=“上传的文件名”</div><div class="line">Content-Type 	     待上传文件的mime type,如application/octet-stream(注:不能为multipart/form-data)</div><div class="line">X-Content-Range      待上传文件字节范围,如第一片段bytes 0-51200/511920,最后一个片段bytes 460809-511919/511920(注:文件第一个字节标号为0,最后一个字节标号为n-1,其中n为文件字节大小)</div><div class="line">X-Session-ID 	     上传文件的标识,由客户端随机指定.因为是断点续传,客户端必须确保同一个文件的所有片段上传标识一致</div><div class="line">Content-Length 	     上传片段的大小</div></pre></td></tr></table></figure>
+<p><strong>Python上传demo</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/python</div><div class="line"># -*- coding: utf-8 -*- </div><div class="line">     </div><div class="line">import os.path</div><div class="line">import requests</div><div class="line">import hashlib</div><div class="line">     </div><div class="line"># 待上传文件路径</div><div class="line">FILE_UPLOAD = &quot;/tmp/testfile&quot;</div><div class="line"># 上传接口地址</div><div class="line">UPLOAD_URL = &quot;http://host/drivers_upload&quot;</div><div class="line"># 单个片段上传的字节数</div><div class="line">SEGMENT_SIZE = 1048576</div><div class="line">    </div><div class="line">def upload(fp, file_pos, size, file_size):</div><div class="line">        session_id = get_session_id()</div><div class="line">        fp.seek(file_pos)</div><div class="line">        payload = fp.read(size)</div><div class="line">        content_range = &quot;bytes &#123;file_pos&#125;-&#123;pos_end&#125;/&#123;file_size&#125;&quot;.format(file_pos=file_pos,</div><div class="line">                        pos_end=file_pos+size-1,file_size=file_size)</div><div class="line">        headers = &#123;&apos;Content-Disposition&apos;: &apos;attachment; filename=&quot;big.TXT&quot;&apos;,&apos;Content-Type&apos;: &apos;application/octet-stream&apos;,</div><div class="line">                    &apos;X-Content-Range&apos;:content_range,&apos;Session-ID&apos;: session_id,&apos;Content-Length&apos;: size&#125;</div><div class="line">        res = requests.post(UPLOAD_URL, data=payload, headers=headers)</div><div class="line">        print(res.text)</div><div class="line">     </div><div class="line">     </div><div class="line"># 根据文件名hash获得session id</div><div class="line">def get_session_id():</div><div class="line">  m = hashlib.md5()</div><div class="line">  file_name = os.path.basename(FILE_UPLOAD)</div><div class="line">  m.update(file_name)</div><div class="line">  return m.hexdigest()</div><div class="line">     </div><div class="line">def main():</div><div class="line">  file_pos = 0</div><div class="line">  file_size = os.path.getsize(FILE_UPLOAD)</div><div class="line">  fp = open(FILE_UPLOAD,&quot;r&quot;)</div><div class="line">     </div><div class="line">  while True:</div><div class="line">   if file_pos + SEGMENT_SIZE &gt;= file_size:</div><div class="line">       upload(fp, file_pos, file_size - file_pos, file_size)</div><div class="line">       fp.close()</div><div class="line">       break</div><div class="line">   else:</div><div class="line">     upload(fp, file_pos, SEGMENT_SIZE, file_size)</div><div class="line">     file_pos = file_pos + SEGMENT_SIZE</div><div class="line">     </div><div class="line">if __name__ == &quot;__main__&quot;:</div><div class="line">        main()</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每当我们想简单的实现文件上传功能，而又不使用其他的语言（比如Java），或者想实现文件的断点续传。这个时候Nginx的一个模块nginx-upload-module就能满足我们的需求。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下载模块：&lt;/strong&gt;&lt;/p&gt;
+&lt;figure cl
+    
+    </summary>
+    
+    
+      <category term="Nginx断点续传" scheme="http://hjie365.top/tags/Nginx%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0/"/>
+    
+      <category term="断点续传" scheme="http://hjie365.top/tags/%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0/"/>
+    
   </entry>
   
   <entry>
     <title>Ngrok服务搭建</title>
-    <link href="http://hjie365.top/2017/08/10/Ngrok%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
-    <id>http://hjie365.top/2017/08/10/Ngrok服务搭建/</id>
-    <published>2017-08-10T14:26:58.000Z</published>
-    <updated>2017-08-10T14:27:32.075Z</updated>
+    <link href="http://hjie365.top/2017/08/11/Ngrok%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
+    <id>http://hjie365.top/2017/08/11/Ngrok服务搭建/</id>
+    <published>2017-08-11T14:26:58.000Z</published>
+    <updated>2017-11-10T06:28:50.951Z</updated>
     
     <content type="html"><![CDATA[<p>​    Ngrok 是一个反向代理，通过在公共的端点和本地运行的 Web 服务器之间建立一个安全的通道。Ngrok 可捕获和分析所有通道上的流量，便于后期分析和重放。</p>
 <h3 id="一、准备"><a href="#一、准备" class="headerlink" title="一、准备"></a>一、准备</h3><p>​    服务器使用的是Ubuntu Server 16.04  amd64</p>
@@ -260,89 +351,9 @@
     </summary>
     
     
-  </entry>
-  
-  <entry>
-    <title>ECharts3图表使用及注意事项</title>
-    <link href="http://hjie365.top/2017/08/10/ECharts3%E5%9B%BE%E8%A1%A8%E4%BD%BF%E7%94%A8/"/>
-    <id>http://hjie365.top/2017/08/10/ECharts3图表使用/</id>
-    <published>2017-08-10T14:25:59.000Z</published>
-    <updated>2017-08-10T14:26:04.338Z</updated>
+      <category term="Ngrok" scheme="http://hjie365.top/tags/Ngrok/"/>
     
-    <content type="html"><![CDATA[<p>参考资料：</p>
-<ul>
-<li>官网：<a href="http://echarts.baidu.com/" target="_blank" rel="external">http://echarts.baidu.com/</a></li>
-<li>下载：<a href="http://echarts.baidu.com/download.html" target="_blank" rel="external">http://echarts.baidu.com/download.html</a></li>
-<li>API：<a href="http://echarts.baidu.com/api.html#echarts" target="_blank" rel="external">http://echarts.baidu.com/api.html#echarts</a></li>
-</ul>
-<h2 id="1-自定义地图构建"><a href="#1-自定义地图构建" class="headerlink" title="1. 自定义地图构建"></a>1. 自定义地图构建</h2><h3 id="地图数据包格式有两种【js，json】"><a href="#地图数据包格式有两种【js，json】" class="headerlink" title="地图数据包格式有两种【js，json】"></a>地图数据包格式有两种【js，json】</h3><ul>
-<li>js: 页面初始化自动加载数据包，</li>
-<li>json: 异步刷新地图</li>
-</ul>
-<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// JS</span></div><div class="line"><span class="keyword">var</span> chart = echarts.init(<span class="built_in">document</span>.getElementById(<span class="string">'map'</span>));</div><div class="line">chart.setOption(&#123;</div><div class="line">    series: [&#123;</div><div class="line">        type: <span class="string">'map'</span>,</div><div class="line">        map: <span class="string">'beijing'</span></div><div class="line">    &#125;]</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// JSON</span></div><div class="line">$.getJSON(<span class="string">'./beijing.json'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</div><div class="line">    echarts.registerMap(<span class="string">'beijing'</span>, data);</div><div class="line">    <span class="keyword">var</span> chart = echarts.init(<span class="built_in">document</span>.getElementById(<span class="string">'map'</span>));</div><div class="line">    chart.setOption(&#123;</div><div class="line">        series: [&#123;</div><div class="line">            type: <span class="string">'map'</span>,</div><div class="line">            map: <span class="string">'beijing'</span></div><div class="line">        &#125;]</div><div class="line">    &#125;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<p><strong><a href="">安徽省市区县地图数据</a></strong><br><strong><a href="">自定义地图包构建Demo.zip</a></strong></p>
-<p><em>注意：地图构建工具（<strong>echarts-map-tool</strong>）有问题，下载 <a href="https://github.com/ecomfe/echarts-map-tool" target="_blank" rel="external">https://github.com/ecomfe/echarts-map-tool</a> 在本地使用</em></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;参考资料：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;官网：&lt;a href=&quot;http://echarts.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://echarts.baidu.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;下载：&lt;a hre
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Nginx断点续传</title>
-    <link href="http://hjie365.top/2017/08/10/Nginx%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0/"/>
-    <id>http://hjie365.top/2017/08/10/Nginx断点续传/</id>
-    <published>2017-08-10T14:20:24.000Z</published>
-    <updated>2017-08-10T14:22:12.282Z</updated>
-    
-    <content type="html"><![CDATA[<p>每当我们想简单的实现文件上传功能，而又不使用其他的语言（比如Java），或者想实现文件的断点续传。这个时候Nginx的一个模块nginx-upload-module就能满足我们的需求。</p>
-<p><strong>下载模块：</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /tmp</div><div class="line">wget https://codeload.github.com/vkholodkov/nginx-upload-module/zip/2.2</div><div class="line">unzip 2.2</div></pre></td></tr></table></figure>
-<p><strong>安装模块：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">.configure --add-module=/tmp/nginx-upload-module-2.2/</div></pre></td></tr></table></figure>
-<p>·    multipart/form-data表单上传示例</p>
-<p><strong>nginx.conf配置：</strong></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">  	[...]</div><div class="line">    location /upload &#123;</div><div class="line">      upload_pass @uploadHandler;</div><div class="line">      upload_store /usr/local/nginx/upload_temp 1;</div><div class="line">      upload_set_form_field $upload_field_name.path "$upload_tmp_path";</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    location @uploadHandler &#123;</div><div class="line">        proxy_pass http://backend-host;</div><div class="line">    &#125;</div><div class="line">	[...]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>这里在server里定义了upload location，这个location是上传的接口，还有@uploadHandler location，是当文件上传完成后，nginx模块会对这个location发送一些必要的信息，如文件上传的路径，这里涉及了几个指令：</p>
-<blockquote>
-<p>upload_pass @uploadHandler：上传完成后会发送必要的数据到@uploadHandler;<br>upload_store /usr/local/nginx/upload_temp 1: 文件上传的临时目录;<br>upload_set_form_field $upload_field_name.path “$upload_tmp_path”: 设置文件上传完成后，把文件临时路径发送给upload_pass指定的location。</p>
-</blockquote>
-<p><strong>断点续传示例</strong></p>
-<p><strong>nginx.conf配置</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">[...]</div><div class="line">        location /resumable_upload &#123;</div><div class="line">               upload_resumable on;</div><div class="line">               upload_state_store /usr/local/nginx/upload_temp ;</div><div class="line">               upload_pass @drivers_upload_handler;</div><div class="line">               upload_store /usr/local/nginx/upload_temp;</div><div class="line">               upload_set_form_field $upload_field_name.path &quot;$upload_tmp_path&quot;;</div><div class="line">            &#125;</div><div class="line">     </div><div class="line">         location @resumable_upload_handler &#123;</div><div class="line">               proxy_pass http://localhost:8002;</div><div class="line">        &#125;</div><div class="line">    [...]</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>与上一步multipart/form-data表单上传示例配置不同的地方有：<br>upload_resumable on: 开启断点续传功能;<br>upload_state_store /usr/local/nginx/upload_temp: 设置断点续传状态文件存储的目录。</p>
-</blockquote>
-<p><strong>上传文件第一个片段</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">POST /upload HTTP/1.1</div><div class="line">Host: example.com</div><div class="line">Content-Length: 51201</div><div class="line">Content-Type: application/octet-stream</div><div class="line">Content-Disposition: attachment; filename=&quot;big.TXT&quot;</div><div class="line">X-Content-Range: bytes 0-51200/511920</div><div class="line">Session-ID: 1111215056</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;0-51200的字节文件数据&gt;</div></pre></td></tr></table></figure>
-<p><strong>上传文件第一个片段服务器响应</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">HTTP/1.1 201 Created</div><div class="line">Date: Thu, 02 Sep 2010 12:54:40 GMT</div><div class="line">Content-Length: 14</div><div class="line">Connection: close</div><div class="line">Range: 0-51200/511920</div><div class="line">     </div><div class="line">0-51200/511920</div></pre></td></tr></table></figure>
-<p><strong>上传文件最后一个片段</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">POST /upload HTTP/1.1</div><div class="line">Host: example.com</div><div class="line">Content-Length: 51111</div><div class="line">Content-Type: application/octet-stream</div><div class="line">Content-Disposition: attachment; filename=&quot;big.TXT&quot;</div><div class="line">X-Content-Range: bytes 460809-511919/511920</div><div class="line">Session-ID: 1111215056</div><div class="line"></div><div class="line">&lt;460809-511919字节文件数据&gt;</div></pre></td></tr></table></figure>
-<p><strong>上传文件最后一个片段服务器响应</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">HTTP/1.1 200 OK</div><div class="line">Date: Thu, 02 Sep 2010 12:54:43 GMT</div><div class="line">Content-Type: text/html</div><div class="line">Connection: close</div><div class="line">Content-Length: 2270</div><div class="line">     </div><div class="line">&lt; 响应的内容&gt;</div></pre></td></tr></table></figure>
-<p><strong>请求头说明</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">  请求头 	                      说明</div><div class="line">Content-Disposition  attachment, filename=“上传的文件名”</div><div class="line">Content-Type 	     待上传文件的mime type,如application/octet-stream(注:不能为multipart/form-data)</div><div class="line">X-Content-Range      待上传文件字节范围,如第一片段bytes 0-51200/511920,最后一个片段bytes 460809-511919/511920(注:文件第一个字节标号为0,最后一个字节标号为n-1,其中n为文件字节大小)</div><div class="line">X-Session-ID 	     上传文件的标识,由客户端随机指定.因为是断点续传,客户端必须确保同一个文件的所有片段上传标识一致</div><div class="line">Content-Length 	     上传片段的大小</div></pre></td></tr></table></figure>
-<p><strong>Python上传demo</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/python</div><div class="line"># -*- coding: utf-8 -*- </div><div class="line">     </div><div class="line">import os.path</div><div class="line">import requests</div><div class="line">import hashlib</div><div class="line">     </div><div class="line"># 待上传文件路径</div><div class="line">FILE_UPLOAD = &quot;/tmp/testfile&quot;</div><div class="line"># 上传接口地址</div><div class="line">UPLOAD_URL = &quot;http://host/drivers_upload&quot;</div><div class="line"># 单个片段上传的字节数</div><div class="line">SEGMENT_SIZE = 1048576</div><div class="line">    </div><div class="line">def upload(fp, file_pos, size, file_size):</div><div class="line">        session_id = get_session_id()</div><div class="line">        fp.seek(file_pos)</div><div class="line">        payload = fp.read(size)</div><div class="line">        content_range = &quot;bytes &#123;file_pos&#125;-&#123;pos_end&#125;/&#123;file_size&#125;&quot;.format(file_pos=file_pos,</div><div class="line">                        pos_end=file_pos+size-1,file_size=file_size)</div><div class="line">        headers = &#123;&apos;Content-Disposition&apos;: &apos;attachment; filename=&quot;big.TXT&quot;&apos;,&apos;Content-Type&apos;: &apos;application/octet-stream&apos;,</div><div class="line">                    &apos;X-Content-Range&apos;:content_range,&apos;Session-ID&apos;: session_id,&apos;Content-Length&apos;: size&#125;</div><div class="line">        res = requests.post(UPLOAD_URL, data=payload, headers=headers)</div><div class="line">        print(res.text)</div><div class="line">     </div><div class="line">     </div><div class="line"># 根据文件名hash获得session id</div><div class="line">def get_session_id():</div><div class="line">  m = hashlib.md5()</div><div class="line">  file_name = os.path.basename(FILE_UPLOAD)</div><div class="line">  m.update(file_name)</div><div class="line">  return m.hexdigest()</div><div class="line">     </div><div class="line">def main():</div><div class="line">  file_pos = 0</div><div class="line">  file_size = os.path.getsize(FILE_UPLOAD)</div><div class="line">  fp = open(FILE_UPLOAD,&quot;r&quot;)</div><div class="line">     </div><div class="line">  while True:</div><div class="line">   if file_pos + SEGMENT_SIZE &gt;= file_size:</div><div class="line">       upload(fp, file_pos, file_size - file_pos, file_size)</div><div class="line">       fp.close()</div><div class="line">       break</div><div class="line">   else:</div><div class="line">     upload(fp, file_pos, SEGMENT_SIZE, file_size)</div><div class="line">     file_pos = file_pos + SEGMENT_SIZE</div><div class="line">     </div><div class="line">if __name__ == &quot;__main__&quot;:</div><div class="line">        main()</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;每当我们想简单的实现文件上传功能，而又不使用其他的语言（比如Java），或者想实现文件的断点续传。这个时候Nginx的一个模块nginx-upload-module就能满足我们的需求。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;下载模块：&lt;/strong&gt;&lt;/p&gt;
-&lt;figure cl
-    
-    </summary>
-    
+      <category term="穿透" scheme="http://hjie365.top/tags/%E7%A9%BF%E9%80%8F/"/>
     
   </entry>
   
@@ -1115,6 +1126,44 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>ECharts3图表使用及注意事项</title>
+    <link href="http://hjie365.top/2017/08/06/ECharts3%E5%9B%BE%E8%A1%A8%E4%BD%BF%E7%94%A8/"/>
+    <id>http://hjie365.top/2017/08/06/ECharts3图表使用/</id>
+    <published>2017-08-06T03:25:19.000Z</published>
+    <updated>2017-11-10T06:29:20.027Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考资料：</p>
+<ul>
+<li>官网：<a href="http://echarts.baidu.com/" target="_blank" rel="external">http://echarts.baidu.com/</a></li>
+<li>下载：<a href="http://echarts.baidu.com/download.html" target="_blank" rel="external">http://echarts.baidu.com/download.html</a></li>
+<li>API：<a href="http://echarts.baidu.com/api.html#echarts" target="_blank" rel="external">http://echarts.baidu.com/api.html#echarts</a></li>
+</ul>
+<h2 id="1-自定义地图构建"><a href="#1-自定义地图构建" class="headerlink" title="1. 自定义地图构建"></a>1. 自定义地图构建</h2><h3 id="地图数据包格式有两种【js，json】"><a href="#地图数据包格式有两种【js，json】" class="headerlink" title="地图数据包格式有两种【js，json】"></a>地图数据包格式有两种【js，json】</h3><ul>
+<li>js: 页面初始化自动加载数据包，</li>
+<li>json: 异步刷新地图</li>
+</ul>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// JS</span></div><div class="line"><span class="keyword">var</span> chart = echarts.init(<span class="built_in">document</span>.getElementById(<span class="string">'map'</span>));</div><div class="line">chart.setOption(&#123;</div><div class="line">    series: [&#123;</div><div class="line">        type: <span class="string">'map'</span>,</div><div class="line">        map: <span class="string">'beijing'</span></div><div class="line">    &#125;]</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// JSON</span></div><div class="line">$.getJSON(<span class="string">'./beijing.json'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</div><div class="line">    echarts.registerMap(<span class="string">'beijing'</span>, data);</div><div class="line">    <span class="keyword">var</span> chart = echarts.init(<span class="built_in">document</span>.getElementById(<span class="string">'map'</span>));</div><div class="line">    chart.setOption(&#123;</div><div class="line">        series: [&#123;</div><div class="line">            type: <span class="string">'map'</span>,</div><div class="line">            map: <span class="string">'beijing'</span></div><div class="line">        &#125;]</div><div class="line">    &#125;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p><strong><a href="">安徽省市区县地图数据</a></strong><br><strong><a href="">自定义地图包构建Demo.zip</a></strong></p>
+<p><em>注意：地图构建工具（<strong>echarts-map-tool</strong>）有问题，下载 <a href="https://github.com/ecomfe/echarts-map-tool" target="_blank" rel="external">https://github.com/ecomfe/echarts-map-tool</a> 在本地使用</em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;参考资料：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;官网：&lt;a href=&quot;http://echarts.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://echarts.baidu.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下载：&lt;a hre
+    
+    </summary>
+    
+    
+      <category term="ECharts3" scheme="http://hjie365.top/tags/ECharts3/"/>
+    
+      <category term="地图" scheme="http://hjie365.top/tags/%E5%9C%B0%E5%9B%BE/"/>
     
   </entry>
   
