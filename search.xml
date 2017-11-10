@@ -13,21 +13,21 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[OpenVPN服务搭建]]></title>
-    <url>%2F2017%2F09%2F18%2FOpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%2F</url>
-    <content type="text"><![CDATA[待定。。]]></content>
-      <tags>
-        <tag>VPN</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[npm源国内镜像]]></title>
     <url>%2F2017%2F09%2F18%2Fnpm%E6%BA%90%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%2F</url>
     <content type="text"><![CDATA[地址：https://github.com/Pana/nrm 1npm install -g nrm 使用1234567891011121314151617C:\Users\hjie&gt;nrm -h Usage: cli [options] [command] Commands: ls List all the registries current Show current registry name use &lt;registry&gt; Change registry to registry add &lt;registry&gt; &lt;url&gt; [home] Add one custom registry del &lt;registry&gt; Delete one custom registry home &lt;registry&gt; [browser] Open the homepage of registry with optional browser test [registry] Show response time for specific or all registries help Print this help Options: -h, --help output usage information -V, --version output the version number 查看当前支持切换的源####查看当前支持切换的源 nrm ls123456789 npm ---- https://registry.npmjs.org/ cnpm --- http://r.cnpmjs.org/* taobao - http://registry.npm.taobao.org/ edunpm - http://registry.enpmjs.org/ eu ----- http://registry.npmjs.eu/ au ----- http://registry.npmjs.org.au/ sl ----- http://npm.strongloop.com/ nj ----- https://registry.nodejitsu.com/ pt ----- http://registry.npmjs.pt/ 切换源 nrm user cnpm123456789 npm ---- https://registry.npmjs.org/* cnpm --- http://r.cnpmjs.org/ taobao - http://registry.npm.taobao.org/ edunpm - http://registry.enpmjs.org/ eu ----- http://registry.npmjs.eu/ au ----- http://registry.npmjs.org.au/ sl ----- http://npm.strongloop.com/ nj ----- https://registry.nodejitsu.com/ pt ----- http://registry.npmjs.pt/]]></content>
       <tags>
         <tag>npm</tag>
         <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[OpenVPN服务搭建]]></title>
+    <url>%2F2017%2F09%2F18%2FOpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[待定。。]]></content>
+      <tags>
+        <tag>VPN</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
