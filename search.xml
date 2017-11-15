@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[七牛云热键上传工具]]></title>
+    <url>%2F2017%2F11%2F15%2F%E4%B8%83%E7%89%9B%E4%BA%91%E7%83%AD%E9%94%AE%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7%2F</url>
+    <content type="text"><![CDATA[qiniu_hotkey七牛云上传控件，快捷键上传，Markdown图片、附件格式自动粘贴Github：https://github.com/adminpass/qiniu_hotkeyOSChina：https://gitee.com/adminpass/qiniu_hotkey 使用说明1.修改config.properties access(AccessKey) secret(SecretKey) bucket(存储空间) host_name(域名) 2.运行jar包，java -jar **.jar 或使用run_hotkey.bat 3.使用热键上传图片 方法： 使用Ctrl + C，复制要上传的文件 使用上传热键 等待桌面右下角提示上传成功 使用插入热键 默认设置： Ctrl + Shift + U 上传热键 Ctrl + Shift + I Markdown文件插入热键 Ctrl + Shift + P 文件插入热键如需要修改，请自行编译源码 附件qiniu_hotkey.jar run_hotkey.bat 运行截图]]></content>
+      <tags>
+        <tag>七牛云</tag>
+        <tag>上传</tag>
+        <tag>Markdown</tag>
+        <tag>热键</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[记一次服务器病毒排查]]></title>
     <url>%2F2017%2F11%2F10%2F%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%97%85%E6%AF%92%E6%8E%92%E6%9F%A5%2F</url>
     <content type="text"><![CDATA[排毒：（1）关闭访问挖矿服务器的访问 iptables -A INPUT -s xmr.crypto-pool.fr -j DROP 和iptables -A OUTPUT -d xmr.crypto-pool.fr -j DROP（2）删除/usr/local/etc 下root文件中的内容（3）删除yam 文件（我的yam文件不是在上面说的/opt目录下的，使用find命令查找，然后删除）（4）删除 /root/.ssh/KHK75NEOiq（5）删除/opt/minerd 和 /opt/KHK75NEOiq33（6）杀死minerd进程，pkill minerd 或者kill -9 进程Id 修复redis的后门a.配置bind选项, 限定可以连接Redis服务器的IP, 并修改redis的默认端口6379b.配置AUTH, 设置密码, 密码会以明文方式保存在redis配置文件中.c.配置rename-command CONFIG “RENAME_CONFIG”, 这样即使存在未授权访问, 也能够给攻击者使用config指令加大难度d.好消息是Redis作者表示将会开发”real user”，区分普通用户和admin权限，普通用户将会被禁止运行某些命令，如conf打开 ~/.ssh/authorized_keys, 删除你不认识的密钥删除用户列表中陌生的帐号 详见：如何应对和预防”挖矿机”入侵?]]></content>
@@ -13,21 +24,21 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[OpenVPN服务搭建]]></title>
-    <url>%2F2017%2F09%2F18%2FOpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%2F</url>
-    <content type="text"><![CDATA[待定。。]]></content>
-      <tags>
-        <tag>VPN</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[npm源国内镜像]]></title>
     <url>%2F2017%2F09%2F18%2Fnpm%E6%BA%90%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%2F</url>
     <content type="text"><![CDATA[地址：https://github.com/Pana/nrm 1npm install -g nrm 使用1234567891011121314151617C:\Users\hjie&gt;nrm -h Usage: cli [options] [command] Commands: ls List all the registries current Show current registry name use &lt;registry&gt; Change registry to registry add &lt;registry&gt; &lt;url&gt; [home] Add one custom registry del &lt;registry&gt; Delete one custom registry home &lt;registry&gt; [browser] Open the homepage of registry with optional browser test [registry] Show response time for specific or all registries help Print this help Options: -h, --help output usage information -V, --version output the version number 查看当前支持切换的源####查看当前支持切换的源 nrm ls123456789 npm ---- https://registry.npmjs.org/ cnpm --- http://r.cnpmjs.org/* taobao - http://registry.npm.taobao.org/ edunpm - http://registry.enpmjs.org/ eu ----- http://registry.npmjs.eu/ au ----- http://registry.npmjs.org.au/ sl ----- http://npm.strongloop.com/ nj ----- https://registry.nodejitsu.com/ pt ----- http://registry.npmjs.pt/ 切换源 nrm user cnpm123456789 npm ---- https://registry.npmjs.org/* cnpm --- http://r.cnpmjs.org/ taobao - http://registry.npm.taobao.org/ edunpm - http://registry.enpmjs.org/ eu ----- http://registry.npmjs.eu/ au ----- http://registry.npmjs.org.au/ sl ----- http://npm.strongloop.com/ nj ----- https://registry.nodejitsu.com/ pt ----- http://registry.npmjs.pt/]]></content>
       <tags>
         <tag>npm</tag>
         <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[OpenVPN服务搭建]]></title>
+    <url>%2F2017%2F09%2F18%2FOpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[待定。。]]></content>
+      <tags>
+        <tag>VPN</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
