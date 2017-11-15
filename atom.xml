@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hjie365.top/"/>
-  <updated>2017-11-10T07:03:28.635Z</updated>
+  <updated>2017-11-15T08:37:09.396Z</updated>
   <id>http://hjie365.top/</id>
   
   <author>
@@ -14,6 +14,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>七牛云热键上传工具</title>
+    <link href="http://hjie365.top/2017/11/15/%E4%B8%83%E7%89%9B%E4%BA%91%E7%83%AD%E9%94%AE%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7/"/>
+    <id>http://hjie365.top/2017/11/15/七牛云热键上传工具/</id>
+    <published>2017-11-15T08:35:55.000Z</published>
+    <updated>2017-11-15T08:37:09.396Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="qiniu-hotkey"><a href="#qiniu-hotkey" class="headerlink" title="qiniu_hotkey"></a>qiniu_hotkey</h1><p>七牛云上传控件，快捷键上传，Markdown图片、附件格式自动粘贴</p>
+<h3 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h3><p>1.修改config.properties</p>
+<ul>
+<li>access(AccessKey)</li>
+<li>secret(SecretKey)</li>
+<li>bucket(存储空间)</li>
+<li>host_name(域名)</li>
+</ul>
+<p>2.运行jar包，java -jar **.jar 或使用run_hotkey.bat</p>
+<p>3.使用热键上传图片</p>
+<p>方法：</p>
+<ul>
+<li>使用Ctrl + C，复制要上传的文件</li>
+<li>使用上传热键</li>
+<li>等待桌面右下角提示上传成功</li>
+<li>使用插入热键</li>
+</ul>
+<p>默认设置：</p>
+<ul>
+<li>Ctrl + Shift + U 上传热键</li>
+<li>Ctrl + Shift + I Markdown文件插入热键</li>
+<li>Ctrl + Shift + P 文件插入热键<br>如需要修改，请自行编译源码</li>
+</ul>
+<h3 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h3><p><a href="http://ozftbbue0.bkt.clouddn.com/qiniu_hotkey.jar" target="_blank" rel="external">qiniu_hotkey.jar</a></p>
+<p><a href="http://ozftbbue0.bkt.clouddn.com/run_hotkey.bat" target="_blank" rel="external">run_hotkey.bat</a></p>
+<h3 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h3><p><img src="http://ozftbbue0.bkt.clouddn.com/FlSAbL29_PuTIyN7u3Bx4y_5QYTT" alt="image.png"></p>
+<p><img src="http://ozftbbue0.bkt.clouddn.com/FotodObAANDa0IkjvH_aOK51w8lA" alt="2.png"></p>
+<p><img src="http://ozftbbue0.bkt.clouddn.com/Fo2e6OnqQtqDo7_e3m9kL3oG7ZHl" alt="image.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;qiniu-hotkey&quot;&gt;&lt;a href=&quot;#qiniu-hotkey&quot; class=&quot;headerlink&quot; title=&quot;qiniu_hotkey&quot;&gt;&lt;/a&gt;qiniu_hotkey&lt;/h1&gt;&lt;p&gt;七牛云上传控件，快捷键上传，Markdown图片、附件格式自
+    
+    </summary>
+    
+    
+      <category term="七牛云、 上传、 Markdown、 热键" scheme="http://hjie365.top/tags/%E4%B8%83%E7%89%9B%E4%BA%91%E3%80%81-%E4%B8%8A%E4%BC%A0%E3%80%81-Markdown%E3%80%81-%E7%83%AD%E9%94%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次服务器病毒排查</title>
@@ -48,30 +96,6 @@
   </entry>
   
   <entry>
-    <title>OpenVPN服务搭建</title>
-    <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
-    <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
-    <published>2017-09-18T07:38:43.000Z</published>
-    <updated>2017-11-10T06:31:02.193Z</updated>
-    
-    <content type="html"><![CDATA[<p>待定。。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;待定。。&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-      <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
-    
-      <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>npm源国内镜像</title>
     <link href="http://hjie365.top/2017/09/18/npm%E6%BA%90%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/"/>
     <id>http://hjie365.top/2017/09/18/npm源国内镜像/</id>
@@ -96,6 +120,30 @@
       <category term="npm" scheme="http://hjie365.top/tags/npm/"/>
     
       <category term="nodejs" scheme="http://hjie365.top/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenVPN服务搭建</title>
+    <link href="http://hjie365.top/2017/09/18/OpenVPN%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/"/>
+    <id>http://hjie365.top/2017/09/18/OpenVPN服务搭建/</id>
+    <published>2017-09-18T07:38:43.000Z</published>
+    <updated>2017-11-10T06:31:02.193Z</updated>
+    
+    <content type="html"><![CDATA[<p>待定。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;待定。。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="VPN" scheme="http://hjie365.top/tags/VPN/"/>
+    
+      <category term="Linux" scheme="http://hjie365.top/tags/Linux/"/>
     
   </entry>
   
