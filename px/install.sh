@@ -6,5 +6,3 @@ wget --no-check-certificate -O bbr.sh http://blog.looby.cc/px/bbr.sh
 chmod +x **
 ./nginx.sh
 ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
-./bbr.sh
-clear
